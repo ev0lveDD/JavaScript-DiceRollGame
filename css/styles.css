@@ -1,0 +1,26 @@
+body {
+  background-color: #072227;
+  color: #35858B;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.columns-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
