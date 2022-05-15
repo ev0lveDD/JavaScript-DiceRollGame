@@ -1,6 +1,30 @@
 body {
   background-color: #072227;
   color: #35858B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+button {
+  background-color: #072227;
+  color: #35858B;
+  border: 0.12em solid #35858B;
+  padding: 0.35em 1.25em;
+  font-size: 4vw;
+}
+
+button:hover {
+  background-color: #35858B;
+  color: #072227;
+  transition: 0.6s;
 }
 
 .content {
@@ -23,4 +47,29 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  button {
+    font-size: 2vw;
+  }
+
 }
